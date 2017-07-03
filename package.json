@@ -1,0 +1,28 @@
+{
+  "name": "hyperapp-live-reload-with-persistent-state",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js > reload/bundle.js",
+    "reload": "reload -b -d reload"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "hyperapp": "^0.9.3",
+    "hyperapp-persist": "^1.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "reload": "^1.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whaaaley/hyperapp-live-reload-with-persistent-state-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/whaaaley/hyperapp-live-reload-with-persistent-state-example/issues"
+  },
+  "homepage": "https://github.com/whaaaley/hyperapp-live-reload-with-persistent-state-example#readme",
+  "description": ""
+}
